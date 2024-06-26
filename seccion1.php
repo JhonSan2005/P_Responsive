@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 col-12 text-center text-md-left mb-1 mb-md-0">
+                <img src="img/logol.png" alt="Logo" class="img-fluid" style="max-height: 180px; max-width: 300px;">
+            </div>
+            <div class="col-md-4 col-12 mb-1 mb-md-0">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-warning" type="button" id="button-addon2">Buscar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center text-md-center mb-1 mb-md-0"style="margin: righ 20px;">
+                <div class="menu-container">
+                    <button class="btn btn-secondary menu-button">Perfil</button>
+                    <div class="menu-content">
+                        <a href="seccion2.php" class="menu-item">Iniciar Sesión</a>
+                        <a href="seccion3.php" class="menu-item">Regístrate YA!</a>
+                        <a href="seccion4.php" class="menu-item">Administrador</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="contenedor-audio" style="text-align: center;">
+     <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/x4fSOEsy0d0?si=tlSZfgQ1Y0it_HXd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div class="audio-player"> 
+        <audio id="audio-player" controls muted>
+            <source src="mp3/kawasaki-ninja.mp3" type="audio/mpeg">
+        </audio>
+        <div class="controls">
+            <button id="play-btn" class="btn">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="pause-btn" class="btn">
+                <i class="fas fa-pause"></i>
+            </button>
+            <button id="mute-btn" class="btn">
+                <i class="fas fa-volume-mute"></i>
+            </button>
+            <button id="unmute-btn" class="btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<section id="nuestros-programas">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/repuestos.png');">
+                    <h3>REPUESTOS</h3>
+                    <a href="seccion12.php"><button class="btn btn-warning">VER +</button></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/aceites.png');">
+                    <h3>ACEITES</h3>
+                    <a href="seccion12.php"><button class="btn btn-warning">VER +</button></a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="carta" style="background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/llantas.png');">
+                    <h3>LLANTAS</h3>
+                    <a href="seccion12.php"><button class="btn btn-warning">VER +</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-muted my-3">
+                &copy; Repuestos JJ
+            </div>
+            <div class="col-12 text-center text-muted">
+                repuestosjj@gmail.com
+            </div>
+        </div>
+    </div>
+</footer>
